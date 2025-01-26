@@ -1,0 +1,28 @@
+/*****************************/
+/******** UI DESIGN **********/
+/*****************************/
+
+.sheet .window-header {
+  background: url(assets/ui/image/aquila.png),
+    url(assets/ui/image/top-sheet.png) !important;
+  background-position: top center, top left !important;
+  background-repeat: no-repeat, repeat-x !important;
+  border-bottom: none !important;
+}
+.sheet .window-header .window-title,
+.sheet .window-header a {
+  margin-top: -4px !important;
+}
+.sheet .window-content {
+  background: url(assets/ui/image/bottom-aquila.png),
+    url(assets/ui/image/wax-sheet.png),
+    url(assets/ui/image/deathwatch-sheet.png),
+    url(assets/ui/image/bottom-sheet.png), url(assets/ui/image/left-sheet.png),
+    url(assets/ui/image/right-sheet.png),
+    url(assets/ui/image/background-sheet.png) !important;
+  background-position: top -4px center, top 10px right 2px,
+    bottom 21px right 29px, bottom left, top left, top right, top left !important;
+  background-repeat: no-repeat, no-repeat, no-repeat, repeat-x, repeat-y,
+    repeat-y, repeat !important;
+  padding: 15px 40px 55px 45px !important;
+}

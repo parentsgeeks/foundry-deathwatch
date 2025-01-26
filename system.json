@@ -1,0 +1,17 @@
+{
+  "name": "foundry-deathwatch",
+  "title": "Deathwatch",
+  "description": "Roleplaying in the grim darkness of the 41st Millenium",
+  "author": "Parentsgeeks",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.6.4",
+  "compatibleCoreVersion": "0.6.4",
+  "esmodules": ["deathwatch.mjs"],
+  "styles": ["deathwatch.css"],
+  "packs": [],
+  "languages": [],
+  "gridDistance": 1,
+  "gridUnit": "m",
+  "primaryTokenAttribute": "wounds",
+  "initiative": "1d10 + agilityTen"
+}
