@@ -1,7 +1,7 @@
 # Welcome to Foundry's Deathwatch system module
 
 <p align="center">
-    <img src="https://github.com/parentsgeeks/foundry-deathwatch/blob/main/assets/deathwatch-logo.png" alt="Deathwatch logo">
+    <img src="https://github.com/parentsgeeks/foundry-deathwatch/blob/main/assets/logos/deathwatch-logo.png" alt="Deathwatch logo">
 </p>
 
 Welcome to the front lines, Battle-Brother!
