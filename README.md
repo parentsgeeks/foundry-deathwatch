@@ -1,7 +1,7 @@
 # Welcome to Foundry's Deathwatch system module
 
 ## Progress
-https://progress-bar.xyz/98?title=Weapon_Sheet
+- Weapon Sheet https://progress-bar.xyz/98
 
 <p align="center">
     <img src="https://github.com/parentsgeeks/foundry-deathwatch/blob/main/assets/logos/deathwatch-logo.png" alt="Deathwatch logo">
