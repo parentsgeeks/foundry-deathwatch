@@ -67,6 +67,9 @@
 .deathwatch.default .defaultHeader .name {
   width: calc(100% - 90px);
 }
+.deathwatch.default .weaponUpgrade .name {
+  width: 100% !important;
+}
 .deathwatch.default .defaultHeader .name input {
   width: 100%;
   border: none;

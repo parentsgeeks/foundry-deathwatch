@@ -5,8 +5,8 @@ export class WeaponUpgradeSheet extends DeathwatchItemSheet {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["deathwatch", "sheet", "default"],
       template: "systems/foundry-deathwatch/template/sheet/weaponUpgrade.hbs",
-      width: 715,
-      height: 362,
+      width: 670,
+      height: 350,
       resizable: false,
       tabs: [
         {
