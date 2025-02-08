@@ -1,0 +1,31 @@
+.deathwatch .sheet-tabs {
+  border-radius: 3px;
+  background: #262425;
+  margin: 5px 0;
+  padding: 3px 8px;
+  width: 100%;
+  display: flex;
+  color: #fff !important;
+  font-family: "warhammer40k", Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.deathwatch .sheet-tabs .item {
+  padding: 5px;
+  font-size: 18px;
+  width: 50%;
+  cursor: pointer;
+}
+.tabs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.tabs > [data-tab] {
+  text-align: center;
+}
+.deathwatch .sheet-tabs .item.active {
+  text-shadow: 0 0 15px #fbfcf7;
+}

@@ -1,0 +1,59 @@
+{
+  "id": "foundry-deathwatch",
+  "title": "Deathwatch",
+  "description": "Roleplaying in the grim darkness of the 41st Millenium",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "12"
+  },
+  "url": "https://github.com/parentsgeeks/foundry-deathwatch",
+  "manifest": "https://raw.githubusercontent.com/parentsgeeks/foundry-deathwatch/refs/heads/main/system.json",
+  "download": "",
+  "authors": [
+    {
+      "name": "Parentsgeeks",
+      "url": "https://github.com/parentsgeeks",
+      "flags": {}
+    }
+  ],
+  "esmodules": ["module/deathwatch.mjs"],
+  "styles": ["styles/deathwatch.css"],
+  "documentTypes": {},
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json",
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "cover",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "setup",
+      "url": "systems/foundry-deathwatch/ui/system/deathwatch-repo.jpg",
+      "thumbnail": "systems/foundry-deathwatch/ui/system/deathwatch-thumbnail.jpg"
+    }
+  ],
+  "socket": true,
+  "grid": {
+    "distance": 1,
+    "units": "m"
+  },
+  "primaryTokenAttribute": "",
+  "secondaryTokenAttribute": "",
+  "background": "systems/foundry-deathwatch/ui/system/deathwatch-background.webp",
+  "flags": {}
+}

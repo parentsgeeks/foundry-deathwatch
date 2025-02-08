@@ -1,0 +1,236 @@
+<form class="{{cssClass}}" autocomplete="off">
+  <!-- HEADER -->
+  <div class="weaponHeader border">
+    <div class="avatar">
+      <img
+        class="profile-img"
+        src="{{item.img}}"
+        data-edit="img"
+        title="{{item.name}}"
+      />
+    </div>
+    <div class="name">
+      <input name="name" type="text" value="{{item.name}}" />
+    </div>
+  </div>
+
+  <!-- TABS -->
+  <div class="sheet-tabs tabs" data-group="primary">
+    <b class="item active" data-tab="data">{{localize "TAB.DATA"}}</b>
+    <b class="item" data-tab="notes">{{localize "TAB.NOTES"}}</b>
+  </div>
+
+  <!-- TAB CONTENT -->
+  <div class="sheet-body">
+    <!-- TAB: DATA -->
+    <div
+      class="tab active"
+      data-group="primary"
+      data-tab="data"
+      style="display: block;"
+    >
+      <div class="stats border">
+        <h1>{{localize "TITLE.STATISTICS"}}</h1>
+
+        <!-- LINE 1 -->
+        <div class="stats-row">
+          <div class="stat type">
+            <label>{{localize "WEAPON.TYPE"}}</label>
+            <select name="system.weapon.type">
+              {{selectOptions
+                (config "weaponType")
+                selected=system.weapon.type
+                localize=true
+              }}
+            </select>
+          </div>
+          <div class="stat subtype">
+            <label>{{localize "WEAPON.SUBTYPE"}}</label>
+            <select name="system.weapon.subClass">
+              {{selectOptions
+                (config "weaponSubType")
+                selected=system.weapon.subType
+                localize=true
+              }}
+            </select>
+          </div>
+          <div class="stat class">
+            <label>{{localize "WEAPON.CLASS"}}</label>
+            <select name="system.weapon.class">
+              {{selectOptions
+                (config "weaponClass")
+                selected=system.weapon.class
+                localize=true
+              }}
+            </select>
+          </div>
+        </div>
+
+        <!-- LINE 2 -->
+        <div class="stats-row">
+          <div class="stat range">
+            <label>{{localize "WEAPON.RANGE"}}</label>
+            <input
+              class="rangeInput"
+              name="system.range"
+              type="text"
+              value="{{system.range}}"
+            />
+          </div>
+          <div class="stat rof">
+            <label>{{localize "WEAPON.RATEOFFIRE"}}</label>
+            <input
+              class="rofInput"
+              name="system.rateofFire.single"
+              type="text"
+              value="{{system.rateofFire.single}}"
+            />
+            <span>/</span>
+            <input
+              class="rofInput"
+              name="system.rateofFire.burst"
+              type="text"
+              value="{{system.rateofFire.burst}}"
+            />
+            <span>/</span>
+            <input
+              class="rofInput"
+              name="system.rateofFire.full"
+              type="text"
+              value="{{system.rateofFire.full}}"
+            />
+          </div>
+          <div class="stat dmg">
+            <label>{{localize "WEAPON.DAMAGE"}}</label>
+            <input
+              class="dmgInput"
+              name="system.damage"
+              type="text"
+              value="{{system.damage}}"
+            />
+            <select name="system.weapon.damageType">
+              {{selectOptions
+                (config "weaponDamageType")
+                selected=system.weapon.damageType
+                localize=true
+              }}
+            </select>
+          </div>
+          <div class="stat pen">
+            <label>{{localize "WEAPON.PENETRATION"}}</label>
+            <input
+              class="penInput"
+              name="system.penetration"
+              type="number"
+              value="{{system.penetration}}"
+            />
+          </div>
+        </div>
+
+        <!-- LINE 3 -->
+        <div class="stats-row">
+          <div class="stat clip">
+            <label>{{localize "WEAPON.CLIP"}}</label>
+            <input
+              class="clipInput"
+              name="system.clip.value"
+              type="number"
+              value="{{system.clip.value}}"
+            />
+            <span>/</span>
+            <input
+              class="clipInput"
+              name="system.clip.max"
+              type="number"
+              value="{{system.clip.max}}"
+            />
+          </div>
+          <div class="stat rld">
+            <label>{{localize "WEAPON.RELOAD"}}</label>
+            <input
+              class="rldInput"
+              name="system.reload"
+              type="number"
+              value="{{system.reload}}"
+            />
+          </div>
+          <div class="stat wt">
+            <label>{{localize "WEAPON.WEIGTH"}}</label>
+            <input
+              class="wtInput"
+              name="system.weigth"
+              type="number"
+              value="{{system.weigth}}"
+            />
+          </div>
+          <div class="stat req">
+            <label>{{localize "WEAPON.REQUISITION"}}</label>
+            <input
+              class="reqInput"
+              name="system.requisition"
+              type="number"
+              value="{{system.requisition}}"
+            />
+          </div>
+          <div class="stat renown">
+            <label>{{localize "WEAPON.RENOWN"}}</label>
+            <select name="system.weapon.renown">
+              {{selectOptions
+                (config "weaponRenownNeed")
+                selected=system.weapon.renown
+                localize=true
+              }}
+            </select>
+          </div>
+        </div>
+
+        <!-- LINE 4 -->
+        <div class="stats-row last">
+          <div class="stat special">
+            <label>{{localize "WEAPON.SPECIAL"}}</label>
+            <multi-select
+              name="system.weapon.special"
+              class="weaponSpecialSelect"
+            >
+              {{selectOptions
+                (config "weaponSpecial")
+                selected=system.weapon.special
+                localize=true
+              }}
+            </multi-select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB: NOTES -->
+    <div
+      class="tab"
+      data-group="primary"
+      data-tab="notes"
+      style="display: none;"
+    >
+      <div class="stats border noteContent">
+        {{#if system.note}}
+          {{editor
+            system.note
+            target="system.note"
+            engine="tinymce"
+            button=true
+            owner=owner
+            editable=editable
+          }}
+        {{else}}
+          {{editor
+            (localize "NOTETYPING")
+            target="system.note"
+            engine="tinymce"
+            button=true
+            owner=owner
+            editable=editable
+          }}
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</form>

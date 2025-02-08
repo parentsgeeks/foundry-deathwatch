@@ -1,0 +1,108 @@
+{
+  "Actor": {
+    "types": ["character"],
+    "character": {
+      "chapter": "",
+      "pastEvent": "",
+      "chapterDemeanour": "",
+      "personalDemeanour": "",
+      "speciality": "",
+      "rank": "",
+      "powerArmourHistory": "",
+      "characteristics": {
+        "weaponSkill": {
+          "label": "CHARACTERISTIC.WEAPON_SKILL.LABEL",
+          "short": "CHARACTERISTIC.WEAPON_SKILL.SHORT",
+          "base": 0,
+          "normal": 0,
+          "unnatural": 0
+        },
+        "ballisticSkill": {
+          "label": "CHARACTERISTIC.BALLISTIC_SKILL.LABEL",
+          "short": "CHARACTERISTIC.BALLISTIC_SKILL.SHORT",
+          "base": 0,
+          "normal": 0,
+          "unnatural": 0
+        },
+        "strength": {
+          "label": "CHARACTERISTIC.STRENGTH.LABEL",
+          "short": "CHARACTERISTIC.STRENGTH.SHORT",
+          "base": 0,
+          "normal": 0,
+          "unnatural": 0
+        },
+        "toughness": {
+          "label": "CHARACTERISTIC.TOUGHNESS.LABEL",
+          "short": "CHARACTERISTIC.TOUGHNESS.SHORT",
+          "base": 0,
+          "normal": 0,
+          "unnatural": 0
+        },
+        "agility": {
+          "label": "CHARACTERISTIC.AGILITY.LABEL",
+          "short": "CHARACTERISTIC.AGILITY.SHORT",
+          "base": 0,
+          "normal": 0,
+          "unnatural": 0
+        },
+        "intelligence": {
+          "label": "CHARACTERISTIC.INTELLIGENCE.LABEL",
+          "short": "CHARACTERISTIC.INTELLIGENCE.SHORT",
+          "base": 0,
+          "normal": 0,
+          "unnatural": 0
+        },
+        "perception": {
+          "label": "CHARACTERISTIC.PERCEPTION.LABEL",
+          "short": "CHARACTERISTIC.PERCEPTION.SHORT",
+          "base": 0,
+          "normal": 0,
+          "unnatural": 0
+        },
+        "willPower": {
+          "label": "CHARACTERISTIC.WILL_POWER.LABEL",
+          "short": "CHARACTERISTIC.WILL_POWER.SHORT",
+          "base": 0,
+          "normal": 0,
+          "unnatural": 0
+        },
+        "fellowship": {
+          "label": "CHARACTERISTIC.FELLOWSHIP.LABEL",
+          "short": "CHARACTERISTIC.FELLOWSHIP.SHORT",
+          "base": 0,
+          "normal": 0,
+          "unnatural": 0
+        }
+      }
+    }
+  },
+  "Item": {
+    "types": ["weapon"],
+    "weapon": {
+      "class": "basic",
+      "type": "ranged",
+      "subType": "bolt",
+      "range": 0,
+      "rateofFire": {
+        "single": "",
+        "burst": "",
+        "full": ""
+      },
+      "damage": "",
+      "damageType": "energy",
+      "penetration": 0,
+      "clip": {
+        "max": 0,
+        "value": 0
+      },
+      "reload": 0,
+      "reloadTime": "full",
+      "special": " ",
+      "weigth": 0,
+      "requisition": 0,
+      "renown": "-",
+      "ammo": "",
+      "note": ""
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "warhammer40k";
+  src: url("../../ui/font/caslon-antique.ttf");
+}
+
+@font-face {
+  font-family: "warhammer40k";
+  src: url("../../ui/font/caslon-antique-Italic.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "warhammer40k";
+  src: url("../../ui/font/caslon-antique-bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "warhammer40k";
+  src: url("../../ui/font/caslon-antique-boldItalic.ttf");
+  font-style: italic;
+  font-weight: bold;
+}

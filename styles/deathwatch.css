@@ -1,0 +1,45 @@
+@import "font/font.css";
+@import "sheet/weapon.css";
+@import "sheet/sheet-tabs.css";
+
+:root {
+  --color-shadow-primary: #262425 !important;
+}
+
+/*****************************/
+/******** UI DESIGN **********/
+/*****************************/
+
+.sheet .window-header {
+  background: url(../ui/system/images/aquila.png),
+    url(../ui/system/images/top-sheet.png) !important;
+  background-position: top center, top left !important;
+  background-repeat: no-repeat, repeat-x !important;
+  border-bottom: none !important;
+}
+.sheet .window-header .window-title,
+.sheet .window-header a {
+  margin-top: -4px !important;
+}
+.sheet .window-content {
+  background: url(../ui/system/images/bottom-aquila.png),
+    url(../ui/system/images/wax-sheet.png),
+    url(../ui/system/images/deathwatch-sheet.png),
+    url(../ui/system/images/bottom-sheet.png),
+    url(../ui/system/images/left-sheet.png),
+    url(../ui/system/images/right-sheet.png),
+    url(../ui/system/images/background-sheet.png) !important;
+  background-position: top -4px center, top 10px right 2px,
+    bottom 21px right 29px, bottom left, top left, top right, top left !important;
+  background-repeat: no-repeat, no-repeat, no-repeat, repeat-x, repeat-y,
+    repeat-y, repeat !important;
+  padding: 8px 35px 55px 35px !important;
+}
+.editor {
+  height: 215px;
+}
+.editor-content {
+  font-family: "warhammer40k", Helvetica, sans-serif;
+  font-size: 20px;
+  color: #262425;
+}
