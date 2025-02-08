@@ -6,6 +6,7 @@
   "TYPES.Actor.character": "Space Marine",
 
   "TYPES.Item.weapon": "Weapon",
+  "TYPES.Item.weaponUpgrade": "Weapon Upgrade",
 
   "CHARACTERISTIC.WEAPON_SKILL.LABEL": "Weapon Skill",
   "CHARACTERISTIC.BALLISTIC_SKILL.LABEL": "Ballistic Skill",
@@ -46,9 +47,9 @@
   "WEAPON.PENETRATION": "Pen: ",
   "WEAPON.CLIP": "Clip: ",
   "WEAPON.RELOAD": "Rld: ",
-  "WEAPON.WEIGTH": "Wt: ",
-  "WEAPON.REQUISITION": "Req: ",
-  "WEAPON.RENOWN": "Renown: ",
+  "DEFAULT.WEIGTH": "Wt: ",
+  "DEFAULT.REQUISITION": "Req: ",
+  "DEFAULT.RENOWN": "Renown: ",
   "WEAPON.SPECIAL": "Special: ",
 
   "WEAPON_CLASS.BASIC": "Basic",
@@ -84,12 +85,12 @@
   "WEAPON_DAMAGETYPE.RENDING": "R",
   "WEAPON_DAMAGETYPE.IMPACT": "I",
 
-  "WEAPON_RENOWNNEED.NONE": "-",
-  "WEAPON_RENOWNNEED.INITIATED": "Initiated",
-  "WEAPON_RENOWNNEED.RESPECTED": "Respected",
-  "WEAPON_RENOWNNEED.DISTINGUISHED": "Distinguished",
-  "WEAPON_RENOWNNEED.FAMED": "Famed",
-  "WEAPON_RENOWNNEED.HERO": "Hero",
+  "DEFAULT_RENOWNNEED.NONE": "-",
+  "DEFAULT_RENOWNNEED.INITIATED": "Initiated",
+  "DEFAULT_RENOWNNEED.RESPECTED": "Respected",
+  "DEFAULT_RENOWNNEED.DISTINGUISHED": "Distinguished",
+  "DEFAULT_RENOWNNEED.FAMED": "Famed",
+  "DEFAULT_RENOWNNEED.HERO": "Hero",
 
   "WEAPON_SPECIAL.ACCURATE": "Accurate",
   "WEAPON_SPECIAL.BALANCED": "Balanced",

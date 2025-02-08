@@ -1,0 +1,165 @@
+/**** weapon SHEET ****/
+.deathwatch.default input,
+.deathwatch.default span {
+  border: none;
+  font-family: "warhammer40k", Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.deathwatch.default .last input {
+  text-align: left !important;
+}
+.deathwatch.default input.rangeInput {
+  width: 60px;
+}
+.deathwatch.default input.rofInput {
+  width: 25px;
+}
+.deathwatch.default input.dmgInput {
+  width: 80px;
+}
+.deathwatch.default input.penInput {
+  width: 40px;
+}
+.deathwatch.default input.clipInput {
+  width: 40px;
+}
+.deathwatch.default input.rldInput {
+  width: 30px;
+}
+.deathwatch.default input.wtInput {
+  width: 40px;
+}
+.deathwatch.default input.reqInput {
+  width: 40px;
+}
+.deathwatch.default .weaponSpecialSelect {
+  position: relative;
+}
+.deathwatch.default input:hover {
+  background: rgba(0, 0, 0, 0.25) !important;
+}
+.deathwatch.default input:focus {
+  box-shadow: 0 0 5px #262425;
+  background: rgba(0, 0, 0, 0.25) !important;
+}
+
+.deathwatch.default .border {
+  border-style: double;
+  border-color: #262425;
+}
+.deathwatch.default .defaultHeader {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.deathwatch.default .defaultHeader .avatar {
+  width: 90px;
+  height: 90px;
+  background: radial-gradient(closest-side, #262425 0%, transparent 100%);
+}
+.deathwatch.default .defaultHeader .avatar img {
+  width: 90px !important;
+  height: 90px !important;
+  border: none !important;
+}
+.deathwatch.default .defaultHeader .name {
+  width: calc(100% - 90px);
+}
+.deathwatch.default .defaultHeader .name input {
+  width: 100%;
+  border: none;
+  background: none !important;
+  font-family: "warhammer40k", Helvetica, sans-serif;
+  font-size: 36px;
+  color: #262425;
+  font-weight: 700;
+  text-align: left !important;
+}
+.deathwatch.default .defaultHeader .name input:hover {
+  background: rgba(0, 0, 0, 0.25) !important;
+}
+.deathwatch.default .defaultHeader .name input:focus {
+  box-shadow: 0 0 5px #262425;
+  background: rgba(0, 0, 0, 0.25) !important;
+}
+
+.deathwatch.default .stats {
+  padding: 10px;
+}
+
+.deathwatch.default .sheet-body .tab .stats h1 {
+  font-family: "warhammer40k", Helvetica, sans-serif;
+  height: 28px;
+  background: #262425;
+  border: none;
+  font-size: 18px;
+  color: #fff !important;
+  text-align: center;
+  display: block;
+  font-weight: 400;
+  line-height: 30px;
+}
+.deathwatch.default .sheet-body .tab .stats .stats-row {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+.deathwatch.default .sheet-body .tab .stats .last {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding-bottom: 0 !important;
+}
+.deathwatch.default .sheet-body .tab .stats .stats-row .stat {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.deathwatch.default .sheet-body .tab .stats .stats-row .stat label {
+  font-family: "warhammer40k", Helvetica, sans-serif;
+  font-size: 18px;
+  color: #262425;
+  font-weight: 700;
+}
+.deathwatch.default .sheet-body .tab .stats .stats-row .stat select {
+  border: none;
+  font-family: "warhammer40k", Helvetica, sans-serif;
+  font-size: 18px;
+}
+.deathwatch.default .sheet-body .tab .stats .stats-row .stat select:hover {
+  background: rgba(0, 0, 0, 0.25) !important;
+}
+.deathwatch.default .sheet-body .tab .stats .stats-row .stat select:focus {
+  box-shadow: 0 0 5px #262425;
+  background: rgba(0, 0, 0, 0.25) !important;
+}
+.deathwatch.default .sheet-body .tab .stats .stats-row .stat select option {
+  background: #c9cfcf;
+}
+.deathwatch.default .sheet-body .tab .stats .stats-row .stat.special {
+  width: 100%;
+}
+.deathwatch.default .tags.input-element-tags {
+  position: absolute;
+  top: 0;
+  left: 150px;
+  width: 290%;
+  justify-content: flex-start;
+}
+.deathwatch.default .tags.input-element-tags .tag {
+  font-family: "warhammer40k", Helvetica, sans-serif;
+  font-size: 18px;
+  color: #262425;
+  border: 1px solid #262425;
+}
+.deathwatch.default .noteContent {
+  height: 215px;
+}
+.deathwatch.default .weaponUpgrade {
+  height: 104px !important;
+}

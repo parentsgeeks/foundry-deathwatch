@@ -77,8 +77,17 @@
     }
   },
   "Item": {
-    "types": ["weapon"],
+    "types": ["weapon", "weaponUpgrade"],
+    "templates": {
+      "item": {
+        "weigth": 0,
+        "requisition": 0,
+        "renown": "-",
+        "note": ""
+      }
+    },
     "weapon": {
+      "templates": ["item"],
       "class": "basic",
       "type": "ranged",
       "subType": "bolt",
@@ -98,11 +107,10 @@
       "reload": 0,
       "reloadTime": "full",
       "special": " ",
-      "weigth": 0,
-      "requisition": 0,
-      "renown": "-",
-      "ammo": "",
-      "note": ""
+      "ammo": ""
+    },
+    "weaponUpgrade": {
+      "templates": ["item"]
     }
   }
 }

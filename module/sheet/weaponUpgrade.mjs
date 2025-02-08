@@ -1,12 +1,12 @@
 import { DeathwatchItemSheet } from "./item.mjs";
 
-export class WeaponSheet extends DeathwatchItemSheet {
+export class WeaponUpgradeSheet extends DeathwatchItemSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ["deathwatch", "sheet", "default"],
-      template: "systems/foundry-deathwatch/template/sheet/weapon.hbs",
+      template: "systems/foundry-deathwatch/template/sheet/weaponUpgrade.hbs",
       width: 715,
-      height: 473,
+      height: 362,
       resizable: false,
       tabs: [
         {

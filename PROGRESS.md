@@ -6,7 +6,7 @@
 | WEAPON SHEET                   | <img src="https://progress-bar.xyz/100/?width=550&color=babaca"> |
 | AMMUNITION SHEET               | <img src="https://progress-bar.xyz/0/?width=550&color=babaca">   |
 | SPECIAL ISSUE AMMUNITION SHEET | <img src="https://progress-bar.xyz/0/?width=550&color=babaca">   |
-| WEAPON UPGRADE SHEET           | <img src="https://progress-bar.xyz/0/?width=550&color=babaca">   |
+| WEAPON UPGRADE SHEET           | <img src="https://progress-bar.xyz/100/?width=550&color=babaca"> |
 | ARMOUR SHEET                   | <img src="https://progress-bar.xyz/0/?width=550&color=babaca">   |
 | FORCE FIELD SHEET              | <img src="https://progress-bar.xyz/0/?width=550&color=babaca">   |
 | RELICS SHEET                   | <img src="https://progress-bar.xyz/0/?width=550&color=babaca">   |

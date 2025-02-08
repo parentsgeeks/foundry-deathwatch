@@ -1,6 +1,6 @@
 <form class="{{cssClass}}" autocomplete="off">
   <!-- HEADER -->
-  <div class="weaponHeader border">
+  <div class="defaultHeader border">
     <div class="avatar">
       <img
         class="profile-img"
@@ -155,7 +155,7 @@
             />
           </div>
           <div class="stat wt">
-            <label>{{localize "WEAPON.WEIGTH"}}</label>
+            <label>{{localize "DEFAULT.WEIGTH"}}</label>
             <input
               class="wtInput"
               name="system.weigth"
@@ -164,7 +164,7 @@
             />
           </div>
           <div class="stat req">
-            <label>{{localize "WEAPON.REQUISITION"}}</label>
+            <label>{{localize "DEFAULT.REQUISITION"}}</label>
             <input
               class="reqInput"
               name="system.requisition"
@@ -173,7 +173,7 @@
             />
           </div>
           <div class="stat renown">
-            <label>{{localize "WEAPON.RENOWN"}}</label>
+            <label>{{localize "DEFAULT.RENOWN"}}</label>
             <select name="system.weapon.renown">
               {{selectOptions
                 (config "weaponRenownNeed")

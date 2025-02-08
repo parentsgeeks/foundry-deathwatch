@@ -1,4 +1,5 @@
 import { WeaponSheet } from "./sheet/weapon.mjs";
+import { WeaponUpgradeSheet } from "./sheet/weaponUpgrade.mjs";
 
 Hooks.once("init", function () {
   console.log("foundry-deathwatch | initialising Deathwatch System...");
@@ -43,12 +44,12 @@ Hooks.once("init", function () {
       impact: "WEAPON_DAMAGETYPE.IMPACT",
     },
     weaponRenownNeed: {
-      none: "WEAPON_RENOWNNEED.NONE",
-      initiated: "WEAPON_RENOWNNEED.INITIATED",
-      respected: "WEAPON_RENOWNNEED.RESPECTED",
-      distinguished: "WEAPON_RENOWNNEED.DISTINGUISHED",
-      famed: "WEAPON_RENOWNNEED.FAMED",
-      hero: "WEAPON_RENOWNNEED.HERO",
+      none: "DEFAULT_RENOWNNEED.NONE",
+      initiated: "DEFAULT_RENOWNNEED.INITIATED",
+      respected: "DEFAULT_RENOWNNEED.RESPECTED",
+      distinguished: "DEFAULT_RENOWNNEED.DISTINGUISHED",
+      famed: "DEFAULT_RENOWNNEED.FAMED",
+      hero: "DEFAULT_RENOWNNEED.HERO",
     },
     weaponSpecial: {
       accurate: "WEAPON_SPECIAL.ACCURATE",
@@ -90,6 +91,14 @@ Hooks.once("init", function () {
   Items.unregisterSheet("core", ItemSheet);
   Items.registerSheet("foundry-deathwatch", WeaponSheet, {
     types: ["weapon"],
+    makeDefault: true,
+  });
+  Items.registerSheet("foundry-deathwatch", WeaponSheet, {
+    types: ["weapon"],
+    makeDefault: true,
+  });
+  Items.registerSheet("foundry-deathwatch", WeaponUpgradeSheet, {
+    types: ["weaponUpgrade"],
     makeDefault: true,
   });
 });

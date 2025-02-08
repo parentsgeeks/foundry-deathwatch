@@ -1,0 +1,31 @@
+/**** weaponUpgrade SHEET ****/
+.deathwatch.weaponUpgrade input,
+.deathwatch.weaponUpgrade span {
+  border: none;
+  font-family: "warhammer40k", Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.deathwatch.weaponUpgrade input:hover {
+  background: rgba(0, 0, 0, 0.25) !important;
+}
+.deathwatch.weaponUpgrade input:focus {
+  box-shadow: 0 0 5px #262425;
+  background: rgba(0, 0, 0, 0.25) !important;
+}
+
+.deathwatch.weaponUpgrade .border {
+  border-style: double;
+  border-color: #262425;
+}
+.deathwatch.weaponUpgrade .weaponUpgradeHeader {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.deathwatch.weaponUpgrade .weaponUpgradeHeader .avatar {
+  width: 90px;
+  height: 90px;
+  background: radial-gradient(closest-side, #262425 0%, transparent 100%);
+}

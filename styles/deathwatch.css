@@ -1,6 +1,6 @@
 @import "font/font.css";
-@import "sheet/weapon.css";
 @import "sheet/sheet-tabs.css";
+@import "sheet/default.css";
 
 :root {
   --color-shadow-primary: #262425 !important;

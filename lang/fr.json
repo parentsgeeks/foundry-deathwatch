@@ -6,6 +6,7 @@
   "TYPES.Actor.character": "Space Marine",
 
   "TYPES.Item.weapon": "Arme",
+  "TYPES.Item.weaponUpgrade": "Amélioration d'arme",
 
   "CHARACTERISTIC.WEAPON_SKILL.LABEL": "Capacité de Combat",
   "CHARACTERISTIC.BALLISTIC_SKILL.LABEL": "Capacité de Tir",
@@ -46,9 +47,9 @@
   "WEAPON.PENETRATIN": "Pén : ",
   "WEAPON.CLIP": "AT : ",
   "WEAPON.RELOAD": "Rch : ",
-  "WEAPON.WEIGTH": "Pds : ",
-  "WEAPON.REQUISITION": "Réq : ",
-  "WEAPON.RENOWN": "Renom : ",
+  "DEFAULT.WEIGTH": "Pds : ",
+  "DEFAULT.REQUISITION": "Réq : ",
+  "DEFAULT.RENOWN": "Renom : ",
   "WEAPON.SPECIAL": "Spécial : ",
 
   "WEAPON_CLASS.BASIC": "Base",
@@ -84,12 +85,12 @@
   "WEAPON_DAMAGETYPE.RENDING": "P",
   "WEAPON_DAMAGETYPE.IMPACT": "I",
 
-  "WEAPON_RENOWNNEED.NONE": "-",
-  "WEAPON_RENOWNNEED.INITIATED": "Initié",
-  "WEAPON_RENOWNNEED.RESPECTED": "Respecté",
-  "WEAPON_RENOWNNEED.DISTINGUISHED": "Distingué",
-  "WEAPON_RENOWNNEED.FAMED": "Célèbre",
-  "WEAPON_RENOWNNEED.HERO": "Héros",
+  "DEFAULT_RENOWNNEED.NONE": "-",
+  "DEFAULT_RENOWNNEED.INITIATED": "Initié",
+  "DEFAULT_RENOWNNEED.RESPECTED": "Respecté",
+  "DEFAULT_RENOWNNEED.DISTINGUISHED": "Distingué",
+  "DEFAULT_RENOWNNEED.FAMED": "Célèbre",
+  "DEFAULT_RENOWNNEED.HERO": "Héros",
 
   "WEAPON_SPECIAL.ACCURATE": "Précise",
   "WEAPON_SPECIAL.BALANCED": "Équilibrée",
